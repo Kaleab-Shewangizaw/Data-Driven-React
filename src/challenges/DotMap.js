@@ -14,7 +14,8 @@ const names = ["alice", "bob", "charlie", "danielle"];
 
 // expected output ['Alice', 'Bob', 'Charlie', 'Danielle']
 
-const capitalizedNames = names.map((name) => name[0].toUpperCase() + name.substring(1));
+// const capitalizedNames = names.map((name) => name[0].toUpperCase() + name.substring(1));
+const capitalizedNames = names.map((name)=> name[0].toupperCase() + name.slice(1))
 
 console.log(capitalizedNames);
 
